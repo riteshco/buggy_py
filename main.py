@@ -9,7 +9,7 @@ server_address = ("103.37.201.135", 1337)
 message = b"Hello UDP Server"
 print(message)
 
-while(true): 
+while(1): 
     s.sendto(message, server_address)
 # Send the datagram
 s.close()
